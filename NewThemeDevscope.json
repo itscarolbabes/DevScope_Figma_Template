@@ -1,0 +1,1460 @@
+{
+    "name": "Devscope Theme",
+    "dataColors": [
+        "#F83C10",
+        "#DDDDDD",
+        "#E76F51",
+        "#01BAEF",
+        "#E9C46A",
+        "#E76F51",
+        "#E75151",
+        "#BFCDD2",
+        "#2A9D8F",
+        "#355967",
+        "#3FC271",
+        "#FB7354",
+        "#9BCCD9",
+        "#ADE2DB",
+        "#92E7FF",
+        "#FBC1B3",
+        "#D76666",
+        "#DEE16A",
+        "#86D9B5"
+    ],
+    "background": "#FFFFFF",
+    "tableAccent": "#EBEBF3",
+    "good": "#32C97A",
+    "neutral": "#FEEE75",
+    "bad": "#D76666",
+    "maximum": "#F83C10",
+    "center": "#CACACA",
+    "minimum": "#01BAEF",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true,
+                        "wordWrap": true,
+                        "cardTitle": true,
+                        "fontFamily": "wf_standard-font",
+                        "fontSize": 14,
+                        "titleFontFamily": "wf_standard-font",
+                        "titleFontSize": "14"
+                    }
+                ],
+                "filterCard": [
+                    {
+                        "$id": "Applied",
+                        "transparency": 0,
+                        "textSize": 10,
+                        "fontFamily": "wf_standard-font",
+                        "border": false,
+                        "borderColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "inputBoxColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "Available",
+                        "transparency": 0,
+                        "fontFamily": "wf_standard-font",
+                        "textSize": 10,
+                        "border": true,
+                        "inputBoxColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    }
+                ],
+                "outspacePane": [
+                    {
+                        "border": true,
+                        "borderColor": {
+                            "solid": {
+                                "color": "#DDDDDD"
+                            }
+                        }
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "fontSize": 16,
+                        "fontFamily": "wf_standard-font"
+                    }
+                ],
+                "padding": [
+                    {
+                        "top": 10,
+                        "bottom": 10,
+                        "left": 10,
+                        "right": 10
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "gridlineShow": false,
+                        "showAxisTitle": false,
+                        "concatenateLabels": false,
+                        "maxMarginFactor": 50,
+                        "fontSize": 14,
+                        "labelColor": {
+                            "solid": {
+                                "color": "#202020"
+                            }
+                        }
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "labelDisplayUnits": 1
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "gridlineShow": false,
+                        "showAxisTitle": false,
+                        "fontSize": 14
+                    }
+                ],
+                "lineStyles": [
+                    {
+                        "showMarker": true
+                    }
+                ],
+                "wordWrap": [
+                    {
+                        "show": true
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": false
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "BottomCenter",
+                        "fontFamily": "wf_standard-font",
+                        "labelColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "fontSize": 14,
+                        "fontFace": "wf_standard-font"
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#ffffff"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "radius": 12
+                    }
+                ],
+                "visualTooltip": [
+                    {
+                        "type": "Default",
+                        "transparency": 20,
+                        "fontSize": 10,
+                        "fontFace": "wf_standard-font",
+                        "background": {
+                            "solid": {
+                                "color": "#656565"
+                            }
+                        },
+                        "valueFontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "transparency": 0,
+                        "image": {
+                            "name": "DevscopeDefault",
+                            "scaling": "Fit",
+                            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxMDgwIiB2aWV3Qm94PSIwIDAgMTkyMCAxMDgwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfOTYwXzE1MDMpIj4KPHJlY3Qgd2lkdGg9IjE5MjAiIGhlaWdodD0iMTA4MCIgZmlsbD0iI0Y2RjZGNiIvPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMF9kXzk2MF8xNTAzKSI+CjxwYXRoIGQ9Ik0wIDRIMTkyMFY5OUMxOTIwIDEwNy4yODQgMTkxMy4yOCAxMTQgMTkwNSAxMTRIMTVDNi43MTU3MyAxMTQgMCAxMDcuMjg0IDAgOTlWNFoiIGZpbGw9IndoaXRlIi8+CjwvZz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjFfZF85NjBfMTUwMykiPgo8cGF0aCBkPSJNMCA0SDE5MjBWMEgwVjRaIiBmaWxsPSIjRjgzQzEwIi8+CjwvZz4KPHBhdGggZD0iTTE4MjAuNiAxMDQ1LjUyVjEwNDkuMDhMMTgyNi45NCAxMDUyLjEzTDE4MjAuNiAxMDU1LjE5VjEwNTguNzVMMTgzMC44NSAxMDU0LjI4VjEwNDkuOUwxODIwLjYgMTA0NS41MloiIGZpbGw9IiNGODNDMTAiLz4KPHBhdGggZD0iTTE3ODcuMzMgMTA0Ni43N0MxNzg2LjU1IDEwNDUuNzQgMTc4NS40MSAxMDQ1LjA0IDE3ODMuODEgMTA0NS4wNEMxNzgwLjUgMTA0NS4wNCAxNzc4IDEwNDguMDIgMTc3OCAxMDUxLjk4QzE3NzggMTA1NS45MyAxNzgwLjUgMTA1OC45MSAxNzgzLjgxIDEwNTguOTFDMTc4NS40NSAxMDU4LjkxIDE3ODYuNjIgMTA1OC4xNyAxNzg3LjM5IDEwNTcuMTFWMTA1OC41N0gxNzkwLjU0VjEwMzlIMTc4Ny4zM1YxMDQ2Ljc3Wk0xNzg0LjQgMTA1NS42QzE3ODIuNTEgMTA1NS42IDE3ODEuMzEgMTA1My45OSAxNzgxLjMxIDEwNTEuOThDMTc4MS4zMSAxMDQ5Ljk2IDE3ODIuNTEgMTA0OC4zNSAxNzg0LjQgMTA0OC4zNUMxNzg2LjI0IDEwNDguMzUgMTc4Ny41IDEwNDkuOSAxNzg3LjUgMTA1MS45OEMxNzg3LjUgMTA1NC4wNSAxNzg2LjI0IDEwNTUuNiAxNzg0LjQgMTA1NS42Wk0xNzk4LjM4IDEwNDUuMDRDMTc5NC43OSAxMDQ1LjA0IDE3OTIuMzEgMTA0Ny44NyAxNzkyLjMxIDEwNTIuMDJDMTc5Mi4zMSAxMDU2LjE2IDE3OTQuODcgMTA1OC45MSAxNzk4LjU0IDEwNTguOTFDMTgwMC41NiAxMDU4LjkxIDE4MDIuMjkgMTA1OC4yOCAxODAzLjY1IDEwNTYuOTFMMTgwMS43NiAxMDU0LjYyQzE4MDAuOTEgMTA1NS40MiAxNzk5Ljg0IDEwNTUuODYgMTc5OC43MiAxMDU1Ljg5QzE3OTcuMiAxMDU1Ljg5IDE3OTUuOTkgMTA1NS4wNiAxNzk1LjY0IDEwNTMuMTZIMTgwNC4xNUMxODA0LjE5IDEwNTIuNzYgMTgwNC4yMSAxMDUyLjM2IDE4MDQuMjEgMTA1MS45NkMxODA0LjE5IDEwNDcuODUgMTgwMS44MyAxMDQ1LjA0IDE3OTguMzggMTA0NS4wNFpNMTc5NS42NSAxMDUwLjc0QzE3OTUuOTQgMTA0OS4xMSAxNzk2LjgzIDEwNDguMSAxNzk4LjM1IDEwNDguMUMxNzk5LjczIDEwNDguMSAxODAwLjY3IDEwNDkuMDYgMTgwMC45NiAxMDUwLjc0SDE3OTUuNjVaTTE4MzkuODcgMTA1MC41TDE4MzguODEgMTA1MC4zMkMxODM3LjcyIDEwNTAuMTQgMTgzNi44NSAxMDQ5Ljk1IDE4MzYuODUgMTA0OS4xOUMxODM2Ljg1IDEwNDguNDcgMTgzNy40NyAxMDQ4IDE4MzguNyAxMDQ4QzE4NDAuMDUgMTA0OC4wMSAxODQxLjU3IDEwNDguNTUgMTg0Mi41MiAxMDQ5LjA3TDE4NDMuNjEgMTA0Ni4zMkMxODQyLjA2IDEwNDUuNDYgMTg0MC4zNCAxMDQ1LjAzIDE4MzguNiAxMDQ1LjA3QzE4MzUuNDQgMTA0NS4wNyAxODMzLjU0IDEwNDYuNjcgMTgzMy41NCAxMDQ5LjM4QzE4MzMuNTQgMTA1MS42MyAxODM0LjkxIDEwNTIuOTYgMTgzNy42OCAxMDUzLjM4TDE4MzguNjcgMTA1My41M0MxODQwLjA1IDEwNTMuNzQgMTg0MC42NiAxMDU0LjEgMTg0MC42NiAxMDU0Ljc0QzE4NDAuNjYgMTA1NS41MSAxODM5Ljk0IDEwNTUuOTcgMTgzOC40NCAxMDU1Ljk3QzE4MzYuNjMgMTA1NS45NyAxODM1LjM5IDEwNTUuNDMgMTgzNC4zNiAxMDU0LjY4TDE4MzMuMDggMTA1Ny4zNUMxODM0LjY0IDEwNTguNTYgMTgzNi43OCAxMDU4LjkgMTgzOC40MSAxMDU4LjlDMTg0MS44OSAxMDU4LjkgMTg0My45MiAxMDU3LjE1IDE4NDMuOTIgMTA1NC40M0MxODQzLjkyIDEwNTIuMjEgMTg0Mi40NyAxMDUwLjkzIDE4MzkuODcgMTA1MC41Wk0xODUxLjY4IDEwNTUuNkMxODUwLjAxIDEwNTUuNiAxODQ4LjY5IDEwNTQuMTggMTg0OC42OSAxMDUxLjk4QzE4NDguNjkgMTA0OS43NyAxODUwLjAyIDEwNDguMzUgMTg1MS42OSAxMDQ4LjM1QzE4NTIuNzUgMTA0OC4zNSAxODUzLjUzIDEwNDguODEgMTg1NC4yNSAxMDQ5LjY3TDE4NTYuNTggMTA0Ny41M0MxODU1LjQ5IDEwNDUuOTQgMTg1My43OSAxMDQ1LjA0IDE4NTEuNzggMTA0NS4wNEMxODQ3Ljk1IDEwNDUuMDQgMTg0NS4zOSAxMDQ3Ljk5IDE4NDUuMzkgMTA1MS45N0MxODQ1LjM5IDEwNTUuOTUgMTg0Ny45NSAxMDU4LjkgMTg1MS43OCAxMDU4LjlDMTg1My43OSAxMDU4LjkgMTg1NS40NyAxMDU4LjAyIDE4NTYuNiAxMDU2LjQzTDE4NTQuMjkgMTA1NC4yN0MxODUzLjk3IDEwNTQuNjggMTg1My41NyAxMDU1LjAxIDE4NTMuMTIgMTA1NS4yNEMxODUyLjY3IDEwNTUuNDcgMTg1Mi4xOCAxMDU1LjYgMTg1MS42OCAxMDU1LjZaTTE4NjMuOTEgMTA0NS4wNEMxODYwLjE4IDEwNDUuMDQgMTg1Ny40NCAxMDQ4LjAxIDE4NTcuNDQgMTA1MS45N0MxODU3LjQ0IDEwNTUuOTQgMTg2MC4xOSAxMDU4LjkgMTg2My45MSAxMDU4LjlDMTg2Ny42MyAxMDU4LjkgMTg3MC40IDEwNTUuOTQgMTg3MC40IDEwNTEuOTdDMTg3MC40IDEwNDguMDEgMTg2Ny42NSAxMDQ1LjA0IDE4NjMuOTEgMTA0NS4wNFpNMTg2My45MSAxMDU1LjZDMTg2Mi4wOSAxMDU1LjYgMTg2MC43MyAxMDU0LjExIDE4NjAuNzMgMTA1MS45N0MxODYwLjczIDEwNDkuODQgMTg2Mi4wOSAxMDQ4LjM1IDE4NjMuOTEgMTA0OC4zNUMxODY1LjczIDEwNDguMzUgMTg2Ny4xIDEwNDkuODQgMTg2Ny4xIDEwNTEuOTdDMTg2Ny4xIDEwNTQuMTEgMTg2NS43MyAxMDU1LjYgMTg2My45MSAxMDU1LjZWMTA1NS42Wk0xODc4Ljg5IDEwNDUuMDRDMTg3Ny4yNCAxMDQ1LjA0IDE4NzYuMDkgMTA0NS43OCAxODc1LjMxIDEwNDYuODVWMTA0NS40SDE4NzIuMTZWMTA2NEgxODc1LjM3VjEwNTcuMTlDMTg3Ni4xNiAxMDU4LjIxIDE4NzcuMjkgMTA1OC45MSAxODc4LjkgMTA1OC45MUMxODgyLjIxIDEwNTguOTEgMTg4NC43MSAxMDU1LjkzIDE4ODQuNzEgMTA1MS45OEMxODg0LjcxIDEwNDguMDIgMTg4Mi4yMSAxMDQ1LjA0IDE4NzguODkgMTA0NS4wNFpNMTg3OC4zIDEwNTUuNkMxODc2LjQ3IDEwNTUuNiAxODc1LjIyIDEwNTQuMDUgMTg3NS4yMiAxMDUxLjk3QzE4NzUuMjIgMTA0OS44OSAxODc2LjQ2IDEwNDguMzUgMTg3OC4zIDEwNDguMzVDMTg4MC4yMSAxMDQ4LjM1IDE4ODEuNCAxMDQ5Ljk2IDE4ODEuNCAxMDUxLjk4QzE4ODEuNCAxMDUzLjk5IDE4ODAuMiAxMDU1LjYgMTg3OC4zIDEwNTUuNlYxMDU1LjZaTTE4OTggMTA1MS45NkMxODk3Ljk5IDEwNDcuODYgMTg5NS42MiAxMDQ1LjA2IDE4OTIuMTcgMTA0NS4wNkMxODg4LjU4IDEwNDUuMDYgMTg4Ni4xIDEwNDcuODggMTg4Ni4xIDEwNTIuMDNDMTg4Ni4xIDEwNTYuMTcgMTg4OC42NiAxMDU4LjkxIDE4OTIuMzMgMTA1OC45MUMxODk0LjM1IDEwNTguOTEgMTg5Ni4wOCAxMDU4LjI5IDE4OTcuNDQgMTA1Ni45MkwxODk1LjU1IDEwNTQuNjNDMTg5NC43IDEwNTUuNDMgMTg5My42MyAxMDU1Ljg3IDE4OTIuNTIgMTA1NS45QzE4OTAuOTkgMTA1NS45IDE4ODkuNzggMTA1NS4wNyAxODg5LjQzIDEwNTMuMTdIMTg5Ny45NEMxODk3Ljk4IDEwNTIuNzcgMTg5OCAxMDUyLjM3IDE4OTggMTA1MS45NlpNMTg4OS40NSAxMDUwLjc0QzE4ODkuNzMgMTA0OS4xMSAxODkwLjYzIDEwNDguMSAxODkyLjE1IDEwNDguMUMxODkzLjUzIDEwNDguMSAxODk0LjQ2IDEwNDkuMDYgMTg5NC43NiAxMDUwLjc0SDE4ODkuNDVaIiBmaWxsPSIjRjgzQzEwIi8+CjxwYXRoIGQ9Ik0xODA1LjE1IDEwNDUuNDNIMTgwOC42NUwxODExLjU4IDEwNTQuNjJMMTgxNC42NyAxMDQ1LjQzSDE4MTguMTZMMTgxMy43NyAxMDU4LjU3SDE4MDkuNDZMMTgwNS4xNSAxMDQ1LjQzWiIgZmlsbD0iI0Y4M0MxMCIvPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2RfOTYwXzE1MDMiIHg9Ii0yMCIgeT0iLTEyIiB3aWR0aD0iMTk2MCIgaGVpZ2h0PSIxNTAiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQ29sb3JNYXRyaXggaW49IlNvdXJjZUFscGhhIiB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMTI3IDAiIHJlc3VsdD0iaGFyZEFscGhhIi8+CjxmZU9mZnNldCBkeT0iNCIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxMCIvPgo8ZmVDb21wb3NpdGUgaW4yPSJoYXJkQWxwaGEiIG9wZXJhdG9yPSJvdXQiLz4KPGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuMDggMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9ImVmZmVjdDFfZHJvcFNoYWRvd185NjBfMTUwMyIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9ImVmZmVjdDFfZHJvcFNoYWRvd185NjBfMTUwMyIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPGZpbHRlciBpZD0iZmlsdGVyMV9kXzk2MF8xNTAzIiB4PSItMjAiIHk9Ii0xNiIgd2lkdGg9IjE5NjAiIGhlaWdodD0iNDQiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQ29sb3JNYXRyaXggaW49IlNvdXJjZUFscGhhIiB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMTI3IDAiIHJlc3VsdD0iaGFyZEFscGhhIi8+CjxmZU9mZnNldCBkeT0iNCIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxMCIvPgo8ZmVDb21wb3NpdGUgaW4yPSJoYXJkQWxwaGEiIG9wZXJhdG9yPSJvdXQiLz4KPGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuMDggMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9ImVmZmVjdDFfZHJvcFNoYWRvd185NjBfMTUwMyIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9ImVmZmVjdDFfZHJvcFNoYWRvd185NjBfMTUwMyIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPGNsaXBQYXRoIGlkPSJjbGlwMF85NjBfMTUwMyI+CjxyZWN0IHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjEwODAiIGZpbGw9IndoaXRlIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg=="
+                        }
+                    }
+                ],
+                "outspace": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "multiRowCard": {
+            "*": {
+                "dataLabels": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "bold": true,
+                        "fontSize": 18,
+                        "fontFamily": "wf_standard-font"
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#AAAAAA"
+                            }
+                        }
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false
+                    }
+                ],
+                "cardTitle": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        }
+                    }
+                ],
+                "card": [
+                    {
+                        "show": true,
+                        "outline": "None",
+                        "barShow": true,
+                        "barColor": {
+                            "solid": {
+								"color": {
+									"expr": {
+										"ThemeDataColor": {
+											"ColorId": 2,
+											"Percent": 0
+										}
+									}
+								}
+							}
+                        },
+                        "barWeight": 2
+                    }
+                ],
+                "general": [
+                    {
+                        "responsive": true
+                    }
+                ]
+            }
+        },
+        "tableEx": {
+            "*": {
+                "grid": [
+                    {
+                        "textSize": 12,
+                        "gridVertical": false,
+                        "gridVerticalWeight": 2,
+                        "gridVerticalColor": {
+                            "solid": {
+                                "color": "#E7E7EB"
+                            }
+                        },
+                        "gridHorizontal": true,
+                        "gridHorizontalWeight": 1,
+                        "gridHorizontalColor": {
+                            "solid": {
+                                "color": "#F8F9FA"
+                            }
+                        },
+                        "rowPadding": 8,
+                        "outlineColor": {
+                            "solid": {
+								"color": {
+									"expr": {
+										"ThemeDataColor": {
+											"ColorId": 2,
+											"Percent": 0
+										}
+									}
+								}
+							}
+                        },
+                        "outlineWeight": 2,
+                        "imageHeight": 75
+                    }
+                ],
+                "columnHeaders": [
+                    {
+                        "fontSize": 13,
+                        "backColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "fontColor": {
+                            "solid": {
+                                "color": "#AAAAAA"
+                            }
+                        },
+                        "autoSizeColumnWidth": true,
+                        "fontFamily": "wf_standard-font",
+                        "wordWrap": true,
+                        "alignment": "Center"
+                    }
+                ],
+                "values": [
+                    {
+                        "fontSize": 14,
+                        "fontColorPrimary": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "fontColorSecondary": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "backColorPrimary": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backColorSecondary": {
+                            "solid": {
+                                "color": "#F8F9FA"
+                            }
+                        },
+                        "fontFamily": "wf_standard-font",
+                        "alignment": "Left"
+                    }
+                ],
+                "total": [
+                    {
+                        "fontSize": 13,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cardVisual": {
+            "*": {
+                "title": [
+                    {
+                        "show": false
+                    }
+                ],
+                "label": [
+                    {
+                        "$id": "default",
+                        "fontSize": 14,
+                        "fontFamily": "wf_standard-font",
+                        "position": "aboveValue",
+                        "alignment": "Left",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#AAAAAA"
+                            }
+                        }
+                    }
+                ],
+                "value": [
+                    {
+                        "$id": "default",
+                        "fontSize": 24,
+                        "fontFamily": "wf_standard-font",
+                        "bold": true,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        }
+                    }
+                ],
+                "outline": [
+                    {
+                        "$id": "default",
+                        "show": false
+                    }
+                ],
+                "image": [
+                    {
+                        "$id": "default",
+                        "show": true,
+                        "position": "Left",
+                        "padding": 14,
+                        "size": 49
+                    },
+                    {
+                        "show": true
+                    }
+                ]
+            }
+        },
+        "advancedSlicerVisual": {
+            "*": {
+                "general": [
+                    {
+                        "keepLayerOrder": false
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false
+                    }
+                ],
+                "background": [
+                    {
+                        "show": false
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false
+                    }
+                ],
+                "value": [
+                    {
+                        "$id": "default",
+                        "color": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "fontColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "fontSize": 14,
+                        "horizontalAlignment": "center",
+                        "textWrap": true
+                    }
+                ],
+                "layout": [
+                    {
+                        "alignment": "center",
+                        "orientation": 0,
+                        "rowCount": 1,
+                        "columnCount": 3,
+                        "cellPadding": 10
+                    }
+                ],
+                "shapeCustomRectangle": [
+                    {
+                        "$id": "default",
+                        "tileShape": "rectangleRounded",
+                        "rectangleRoundedCurve": 15
+                    }
+                ],
+                "outline": [
+                    {
+                        "show": false
+                    },
+                    {
+                        "$id": "default",
+                        "roundEdge": 0,
+                        "lineColor": { 
+                            "solid": {
+                                "color": "#E6E6E6"
+                            }
+                        },
+                        "weight": 1,
+                        "transparency": 0
+                    },
+                    {
+                        "$id": "selected",
+                        "roundEdge": 0,
+                        "lineColor": {
+                            "solid": {
+                                "color": "#01BAEF"
+                            }
+                        },
+                        "weight": 1,
+                        "transparency": 0,
+                        "show": false
+                    }
+                ],
+                "fillCustom": [
+                    {
+                        "$id": "selected",
+                        "fillColor": {
+                            "solid": {
+								"color": {
+									"expr": {
+										"ThemeDataColor": {
+											"ColorId": 2,
+											"Percent": 0
+										}
+									}
+								}
+							}
+                        }
+                    }
+                ]
+            }
+        },
+        "pivotTable": {
+            "*": {
+                "grid": [
+                    {
+                        "gridVertical": true,
+                        "gridVerticalWeight": 2,
+                        "gridVerticalColor": {
+                            "solid": {
+                                "color": "#EEEEEE"
+                            }
+                        },
+                        "gridHorizontal": true,
+                        "gridHorizontalWeight": 1,
+                        "gridHorizontalColor": {
+                            "solid": {
+                                "color": "#F8F9FA"
+                            }
+                        },
+                        "rowPadding": 8,
+                        "outlineColor": {
+                            "solid": {
+								"color": {
+									"expr": {
+										"ThemeDataColor": {
+											"ColorId": 2,
+											"Percent": 0
+										}
+									}
+								}
+							}
+                        },
+                        "outlineWeight": 2,
+                        "imageHeight": 75
+                    }
+                ],
+                "columnHeaders": [
+                    {
+                        "backColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "fontColor": {
+                            "solid": {
+                                "color": "#B0B0B0"
+                            }
+                        },
+                        "autoSizeColumnWidth": true,
+                        "fontFamily": "wf_standard-font",
+                        "wordWrap": true,
+                        "alignment": "Center",
+                        "fontSize": 11
+                    }
+                ],
+                "rowHeaders": [
+                    {
+                        "backColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "fontColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "wordWrap": true,
+                        "fontSize": 12,
+                        "titleAlignment": "Center",
+                        "showExpandCollapseButtons": true,
+                        "expandCollapseButtonsColor": {
+                            "solid": {
+                                "color": "#AAAAAA"
+                            }
+                        },
+                        "expandCollapseButtonsSize": 12,
+                        "outline": "None"
+                    }
+                ],
+                "values": [
+                    {
+                        "fontSize": 12,
+                        "fontColorPrimary": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "fontColorSecondary": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "backColorPrimary": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backColorSecondary": {
+                            "solid": {
+                                "color": "#F8F9FA"
+                            }
+                        },
+                        "fontFamily": "wf_standard-font",
+                        "alignment": "Left"
+                    }
+                ],
+                "total": [
+                    {
+                        "applyToHeaders": true,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backColor": {
+                            "solid": {
+                                "color": "#666666"
+                            }
+                        },
+                        "fontSize": 14
+                    }
+                ],
+                "rowTotal": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "fontFamily": "wf_standard-font",
+                        "backColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "fontSize": 14
+                    }
+                ]
+            }
+        },
+        "card": {
+            "*": {
+                "title": [
+                    {
+                        "show": false
+                    }
+                ],
+                "labels": [
+                    {
+                        "fontSize": 24,
+                        "fontFamily": "wf_standard-font",
+                        "labelDisplayUnits": 0,
+                        "bold": true
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#AAAAAA"
+                            }
+                        },
+                        "fontSize": 14,
+                        "fontFamily": "wf_standard-font"
+                    }
+                ]
+            }
+        },
+        "areaChart": {
+            "*": {
+                "labels": [
+                    {
+                        "show": false,
+                        "color": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "fontSize": 14,
+                        "fontFamily": "wf_standard-font",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#F3F3F3"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "legend": [
+                    {
+                        "position": "BottomCenter",
+                        "legendMarkerRendering": "lineAndMarker",
+                        "labelColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        }
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "gridlineShow": true,
+                        "gridlineStyle": "dashed",
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#E4E4E4"
+                            }
+                        }
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        }
+                    }
+                ],
+                "lineStyles": [
+                    {
+                        "showMarker": false,
+                        "strokeWidth": 2,
+                        "markerSize": 9
+                    }
+                ]
+            }
+        },
+        "lineChart": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": false,
+                        "color": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "fontSize": 14,
+                        "fontFamily": "wf_standard-font",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#F3F3F3"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "legend": [
+                    {
+                        "position": "BottomCenter",
+                        "legendMarkerRendering": "lineAndMarker",
+                        "labelColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        }
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "gridlineShow": true,
+                        "gridlineStyle": "dashed",
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#E4E4E4"
+                            }
+                        }
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "map": {
+            "*": {
+                "labels": [
+                    {
+                        "show": false
+                    }
+                ],
+                "dataLabels": [
+                    {
+                        "show": false
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": false
+                    }
+                ],
+                "mapStyles": [
+                    {
+                        "mapTheme": "grayscale"
+                    }
+                ]
+            }
+        },
+        "barChart": {
+            "*": {
+                "categoryAxis": [
+                    {
+                        "axisType": "Categorical"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        },
+        "clusteredColumnChart": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "position": "BottomCenter",
+                        "legendMarkerRendering": "lineAndMarker",
+                        "labelColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        }
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "axisType": "Categorical",
+                        "fontSize": 14,
+                        "fontFamily": "wf_standard-font",
+                        "showAxisTitle": false,
+                        "maxMarginFactor": 50,
+                        "preferredCategoryWidth": 60
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": false,
+                        "color": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "fontSize": 16,
+                        "fontFamily": "wf_standard-font"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "labelPosition": "OutsideEnd",
+                        "labelOverflow": true,
+                        "fontFamily": "wf_standard-font",
+                        "fontSize": 14,
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#F3F3F3"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ]
+            }
+        },
+        "image": {
+            "*": {
+                "background": [
+                    {
+                        "show": false
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        },
+        "waterfallChart": {
+            "*": {
+                "sentimentColors": [
+                    {
+                        "increaseFill": {
+                            "solid": {
+                                "color": "#3FC271"
+                            }
+                        },
+                        "decreaseFill": {
+                            "solid": {
+                                "color": "#E75151"
+                            }
+                        },
+                        "totalFill": {
+                            "solid": {
+                                "color": "#999999"
+                            }
+                        },
+                        "otherFill": {
+                            "solid": {
+                                "color": "#FEEE75"
+                            }
+                        }
+                    }
+                ],
+                "labels": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F3F3F3"
+                            }
+                        },
+                        "fontSize": 14,
+                        "fontFamily": "wf_standard-font",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "backgroundTransparency": 0,
+                        "labelOrientation": 0,
+                        "labelPosition": "InsideEnd"
+                    }
+                ],
+                "legend": [
+                    {
+                        "position": "BottomCenter",
+                        "labelColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "kpi": {
+            "*": {
+                "status": [
+                    {
+                        "goodColor": {
+                            "solid": {
+                                "color": "#3FC271"
+                            }
+                        },
+                        "badColor": {
+                            "solid": {
+                                "color": "#E75151"
+                            }
+                        },
+                        "neutralColor": {
+                            "solid": {
+                                "color": "#FEEE75"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "treemap": {
+            "*": {
+                "labels": [
+                    {
+                        "show": true
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true
+                    }
+                ]
+            }
+        },
+        "donutChart": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": false,
+                        "position": "BottomCenter",
+                        "fontFamily": "wf_standard-font",
+                        "labelColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "fontSize": 14
+                    }
+                ],
+                "slices": [
+                    {
+                        "innerRadiusRatio": 60
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelStyle": "Category, percent of total",
+                        "color": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "fontFamily": "wf_standard-font",
+                        "position": "outside",
+                        "background": "on",
+                        "fontSize": 14
+                    }
+                ]
+            }
+        },
+        "clusteredBarChart": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "position": "BottomCenter",
+                        "legendMarkerRendering": "lineAndMarker",
+                        "labelColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        }
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "axisType": "Categorical",
+                        "fontSize": 14,
+                        "fontFamily": "wf_standard-font",
+                        "showAxisTitle": false,
+                        "maxMarginFactor": 50
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": false,
+                        "color": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "fontSize": 16,
+                        "fontFamily": "wf_standard-font"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "labelPosition": "OutsideEnd",
+                        "labelOverflow": true,
+                        "fontFamily": "wf_standard-font",
+                        "fontSize": 14,
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#F3F3F3"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ]
+            }
+        },
+        "actionButton": {
+            "*": {
+                "shape": [
+                    {
+                        "$id": "default",
+                        "tileShape": "rectangle",
+                        "roundEdge": 10
+                    }
+                ],
+                "outline": [
+                    {
+                        "show": false
+                    },
+                    {
+                        "$id": "default",
+                        "transparency": 10,
+                        "weight": 2,
+                        "roundEdge": 10
+                    }
+                ],
+                "text": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#CACACA"
+                            }
+                        }
+                    }
+                ],
+                "fill": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "fillColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0
+                    },
+                    {
+                        "$id": "hover",
+                        "fillColor": {
+                            "solid": {
+                                "color": "#DDDDDD"
+                            }
+                        },
+                        "transparency": 10
+                    }
+                ],
+                "icon": [
+                    {
+                        "show": false
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false
+                    }
+                ],
+                "padding": [
+                    {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 12
+                    }
+                ]
+            }
+        },
+        "basicShape": {
+            "*": {
+                "title": [
+                    {
+                        "show": false
+                    }
+                ],
+                "padding": [
+                    {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0
+                    }
+                ],
+                "line": [
+                    {
+                        "transparency": 0,
+                        "weight": 1,
+                        "roundEdge": 5
+                    }
+                ],
+                "fill": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "rotation": [
+                    {
+                        "angle": 0
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": false
+                    }
+                ],
+                "background": [
+                    {
+                        "show": false
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        },
+        "shape": {
+            "*": {
+                
+                "line": [
+                    {
+                        "transparency": 0,
+                        "weight": 1,
+                        "roundEdge": 5
+                    }
+                ],
+                "padding": [
+                    {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0
+                    }
+                ],
+                "outline": [
+                    {
+                        "show": false
+                    },
+                    {
+                        "$id": "default",
+                        "transparency": 10,
+                        "weight": 2,
+                        "roundEdge": 10
+                    }
+                ],
+                "text": [
+                    {
+                        "show": false
+                    }
+                ],
+                "fill": [
+                    {
+                        "show": false
+                    },
+                    {
+                        "$id": "default",
+                        "fillColor": {
+                            "solid": {
+								"color": {
+									"expr": {
+										"ThemeDataColor": {
+											"ColorId": 2,
+											"Percent": 0
+										}
+									}
+								}
+							}
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "rotation": [
+                    {
+                        "angle": 0
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": false
+                    }
+                ],
+                "background": [
+                    {
+                        "show": false
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        },
+        "textbox": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false
+                    }
+                ],
+                "background": [
+                    {
+                        "show": false
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        }
+    },
+    "textClasses": {
+        "callout": {
+            "fontSize": 16,
+            "fontFace": "wf_standard-font, helvetica, arial, sans-serif",
+            "color": "#333333"
+        },
+        "title": {
+            "fontSize": 16,
+            "fontFace": "wf_standard-font, helvetica, arial, sans-serif",
+            "color": "#333333"
+        },
+        "header": {
+            "fontSize": 16,
+            "fontFace": "wf_standard-font, helvetica, arial, sans-serif",
+            "color": "#333333"
+        },
+        "label": {
+            "fontSize": 14,
+            "fontFace": "wf_standard-font, helvetica, arial, sans-serif",
+            "color": "#333333"
+        }
+    },
+    "icons": {
+        "Good": {
+            "description": "Good",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAILSURBVHgBxZdNbtNQEMf/M1FeG7HxEcwJarNjF06QHqE3oDvYoCQLJJbmBjlCe4KmK9RVfAPMCfCGRDXqG2YCSUOaiKfij9/CzsuTPPPm680QAkkWlxGqwYiFhkKSABQTENmeAKU+CxLKPckcbnWdp1kZ8l36p+Av72Nmeiugi43AIAQzcTRZvPr4Dc9R4M+Jxwy6xP8gkvmT1fSYRQ4qYKcmphsCxagBESngeHjIGrz/R3r34axO4QaRfqvy8/Tu3dmTvd1F3Sff55AltgqYz6kaLJoSvquEnKzSTUw8ukADrmnhhrmD7wfj7doev1ONv6JFpE+xuWJtASYeo2Xop1+nNyWLScRV9R3tU3q3fMmo7kfohqhXvRix1XZ0hGbEUOUjQUeQyuY2Uu8YeovGmgUSfsPVT8ToGFWAghqHhihZtJNBR2gZLpgEOTpCVDZrKN6iI/RimrM/dVddxcGD+3HNeTox4TO0jTat1hOs09D7h89oGeuY7b1WIH/9qVA3ZGgNyTZt2bYQedef6qtA0wgK71bTzXKrgMWC9/5No0qocDX9cHdG+KsUmysEvfNGlDDh1Dvfnw2ODibaI97ozxh1CdeTBw0mhlnCO5fWE5g2mi3TYzNi2HBqTSvhAsFYYfMz6XP27OH0iSI6uFgPZ22UTk+J1vH4sZegUrubAh657t/60+VV6Hj+C6UN379GfuVAAAAAAElFTkSuQmCC"
+        },
+        "Neutral": {
+            "description": "Neutral",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAH2SURBVHgBxZdNctpAEIVfNyDbm0TcYHyCkBsoJ7CP4BuEXbLDXqQqm1SRG3AE+wQhJ4hvYHmVJVobNO1uCWPAcqGyJc23QIBU8968ac0PoSZyN44RR2fe5wkRjQBy+ne8vp3pE6mI3DJjjiy/odNpVqddOvSA/B87RP2vQnSxJXjYsPiZmrmk4a97vMWA9dh/6E+0t2O8A01lyry6omF1IpUGrNdyNPijXx2aISXySVUa/EJ88e1Tw+KGE+G5tb1/YyeBFnq+z4skNgZszOXj4F+L4lsmlp+famIzBFZwHYgbzvtCq6BIYB39HTpEh8LZUJQJRL0JOqd8vUkWOvYyWKBzJCNanWoCvTMEgWLTZngkCIQHJyzEIwSCBCMrQodgiDMDtVe45qGYERgzUGvj0A6SmYEUwaCUiXCLQIhqM3L8RSAYNGf0ltcIVgcPN2zrMpHM0DEa/8y0169h/zc6ho+jy+JqHzT8qbsUmaIjTItOftxvDJSsrtDNK5mutbBjoKyF3he0ayKlkyjZPiPsTMXlUPB5SyZSivj8KfqNZtWTsviu+/i82YOJ9XxP3KhcjMokdOvcQGEWBWdtVYgX9w81YGkA+UQEF6hPObccH01fE65t4NmIHs8R6f5REv05UkMOW8dzXVNSvdq6olP78vq1w+g+j7I6uWdQFlpqAAAAAElFTkSuQmCC"
+        },
+        "Bad": {
+            "description": "Bad",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIESURBVHgBxZdRUtswEIZ3V3VNZvqQI7gnAG6QnoBwA27QdqYvfSI8tS+dhhvkBIw5AeEE5AaYE5AHJh4SrGVXcUIICWjAtr6HxLY02tVqJf2L4An3uu3ZF3PAljsAuMcAiXxul81jBMik1wiZh1HO59hLxz7j4lsd8j/dxBB9t4hHKwY9BubBZ4Ie/jq7eb3fFtyMW3Qshn/AR2Dux7k92RaRjQ7orJHMhbQmUAXMWWygsykatP5h+u9wt1LjCmJyX8Bw+vdw90XT6kvlM19nQySWDuia37fMVW3GV53I7f4iJ5ZLoAlXu3FFl0NtLV71x4XemGtokJg40aVwESBjjqFhZgW47Y38X9Z+Zm6hecbxpPhKs6k5gDC4o50YoQOB0HtFc2APAsFyqVF5q4Ui0Qh433A10CYIjDrgJRxqYkxzJROMTCMwgkCIahqRBb6EQCDxkHYim0KgPIju+JzwZyqJwANoGBWtqgncNiwe7Ck0jCpm/XcOtH6nmUShDw1BopQXsmx5EEWf7Ak0siU5i3Jna+7M4kFzgYviW71OiB4kEaUrNcKzo9gthbHdepxgGZu767XB9sLEiDyv7KYsZ+5TmCgaiTgq9qtITE24eCIyfEuN6FWcqmgV3XAEvqBcMpYHkYH+u4vTdZ7Kc5FwCPPynEstgWV5zjyyAJc7E5v6luePZHXXJC8T0U4AAAAASUVORK5CYII="
+        },
+        "GoodV2": {
+            "description": "GoodV2",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEsSURBVHgB7ZRNTsMwEIXfDBABK46QG+CygCW9SXMDsmyRUMsCwQ44AdwAjhBWEDbpEcoxaKmNbalSf1PHStuNPymLKJOZ52c/A4FAILBjCJ6IIj3B73HLNonovTi7+4EHXgIa351LKLwSKDbvSqkBGElxfv+BilQSYFc9POoyKF32XUL2+hcPt6iAs4BGfnMK/JlVi7I660bETdctYZci8XV9BYyzdcMNRBTTSA1E3u7CgVIHxGc71g1f9NOEB9qNTLuRlLmx0gGRd1rEXPgON9h/hzIzvVbWLAy28Tp8ZOIEdaJToyLqzbsxI2A+XnWzLK5WwLp41c10XMkeNKY3lxNeJ5O47jPv6YiprQ43mLhiJFOne2CTsJTjZ62mjy2jZ2bqgJ8QCAQCu+Yf78xoCEshfSQAAAAASUVORK5CYII="
+        },
+        "NeutralV2": {
+            "description": "NeutralV2",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACTSURBVHgB7dNBFcIwEATQna2CgAGk1AGtA0SUM3DkBRE4IDgAJzEAKIBlKQ8ctDl0/mXnlnlJVoSIiKYOv/C8dRsAK48LGVY2s2M1P+z+BV739clHI+NKOost7NEtzZCkAEBq9VlLMdaoFOYFylz/V3VRhHj1NH4JSELYn/sn6H8jbOsxy8B81fPnLA2xFSIiIvcG7Q8hYlw/dUsAAAAASUVORK5CYII="
+        },
+        "BadV2": {
+            "description": "BadV2",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEsSURBVHgB7dTNUQIxFAfw/0vYXe2CErQCtQJRCxArkPHz6HryoONABcJdXTsQO9AOsAMOjoxC8kwYcHYGhKzKwiG/y2aSzObl4z3A8zxvzqhzUSqSlDemvY4cEfAcCi4JWRD7eS9uMbDSVagIzJlQPV0z3xZyZq8gkKjSsOPjcvuMmWLkQDBXg44+p/ihTemB7vXWmuqJumkWMRPcYhJ7y8e3ze9g0sPBQfLESm2YqOr4Z/af0bteTS8+6B/v82pnV2vE+OtpENpC60p4mjTGD0/QrxEFUyP4l2lKaEbEZTq6f/15ioPMD9Ts2gQdL53c1aZPdTSomI+YciU2vUjqcniYvMCBcwBDk04jnV5wlDkAazRdR9NrpgFY/SsJ5KZtR2+qkWXXnud5C+UL9JVuqN0JO04AAAAASUVORK5CYII="
+        }
+    }
+}
